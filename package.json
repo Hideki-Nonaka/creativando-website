@@ -1,0 +1,9 @@
+{
+  "name": "creativando-website",
+  "version": "1.0.0",
+  "description": "Portal Institucional e Comercial Creativando B2B",
+  "private": true,
+  "scripts": {
+    "start": "serve ."
+  }
+}
