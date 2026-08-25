@@ -1,0 +1,15 @@
+# Logs & OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+
+# Node & Dependencies (se for integrado posteriormente com build tools)
+node_modules/
+dist/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
