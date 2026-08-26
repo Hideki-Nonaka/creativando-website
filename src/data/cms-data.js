@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Creativando B2B CMS Data Layer
  * Centralized, decoupled content model for all products, solutions, partners, cases, testimonials, and articles.
  */
@@ -11,7 +11,7 @@ const CMS_DATA = {
     tagline: "Tecnologia que transforma desafios em resultados.",
     subtagline: "Da infraestrutura ao software, entregamos soluções completas para empresas que precisam de mais produtividade, segurança e performance.",
     experienceYears: "15+",
-    logo: "public/images/logo.png",
+    logo: "assets/images/logo.png",
     address: {
       street: "Rua Miguel Rodrigues, 50",
       neighborhood: "Vila Madalena",
@@ -39,7 +39,7 @@ const CMS_DATA = {
     {
       id: "microsoft",
       name: "Microsoft",
-      logo: "public/images/partner-microsoft.jpg",
+      logo: "assets/images/partner-microsoft.jpg",
       badge: "Parceiro Oficial de Soluções",
       headline: "Soluções Microsoft Originais & Suporte Especializado",
       description: "A Creativando é sua parceira confiável para garantir que sua empresa obtenha licenciamento original, implantação segura e suporte técnico de alta performance no ecossistema Microsoft.",
@@ -54,7 +54,7 @@ const CMS_DATA = {
     {
       id: "adobe",
       name: "Adobe",
-      logo: "public/images/partner-adobe.jpg",
+      logo: "assets/images/partner-adobe.jpg",
       badge: "Revendedor Autorizado Adobe Creative Cloud",
       headline: "Dê asas à sua criatividade com a Adobe",
       description: "Na Creativando, oferecemos os produtos e planos corporativos originais Adobe que sua equipe precisa para criar, renderizar e dar vida às suas ideias com máxima produtividade.",
@@ -69,7 +69,7 @@ const CMS_DATA = {
     {
       id: "google",
       name: "Google",
-      logo: "public/images/partner-google.jpg",
+      logo: "assets/images/partner-google.jpg",
       badge: "Especialista em Soluções Google Workspace",
       headline: "Quer elevar sua presença online e produtividade?",
       description: "Estamos prontos para guiar sua empresa pelas soluções Google que atendem com perfeição às suas necessidades corporativas e colaborativas.",
@@ -84,7 +84,7 @@ const CMS_DATA = {
     {
       id: "benq",
       name: "BenQ",
-      logo: "public/images/partner-benq.jpg",
+      logo: "assets/images/partner-benq.jpg",
       badge: "Distribuidor Especialista BenQ Profissional",
       headline: "Sua experiência visual e precisão de cor importam",
       description: "Com a Creativando e os monitores e projetores BenQ, sua empresa desfruta de calibração profissional, resolução 4K HDR e confiabilidade para projetos críticos.",
@@ -99,7 +99,7 @@ const CMS_DATA = {
     {
       id: "kaspersky",
       name: "Kaspersky",
-      logo: "public/images/partner-kaspersky.jpg",
+      logo: "assets/images/partner-kaspersky.jpg",
       badge: "Líder em Cibersegurança Corporativa",
       headline: "Proteger o digital é essencial para o seu negócio",
       description: "Com a Kaspersky e a Creativando, a segurança cibernética dos seus servidores, computadores e dados estratégicos está em mãos verdadeiramente confiáveis.",
@@ -249,7 +249,7 @@ const CMS_DATA = {
       category: "software",
       categoryName: "Software & Cloud",
       badge: "Licença Oficial PJ",
-      image: "public/images/partner-microsoft.jpg",
+      image: "assets/images/partner-microsoft.jpg",
       shortDesc: "A solução corporativa completa: aplicativos Office, segurança avançada Defender e gerenciamento de dispositivos Intune.",
       specs: [
         "Aplicativos: Word, Excel, PowerPoint, Outlook, Teams, OneDrive (1TB)",
@@ -267,7 +267,7 @@ const CMS_DATA = {
       category: "software",
       categoryName: "Design & Criatividade",
       badge: "Original & Autorizado",
-      image: "public/images/partner-adobe.jpg",
+      image: "assets/images/partner-adobe.jpg",
       shortDesc: "Acesso a mais de 20 aplicativos de criação líderes mundiais com painel administrativo e suporte corporativo.",
       specs: [
         "Apps Inclusos: Photoshop, Illustrator, Premiere Pro, After Effects, InDesign, Acrobat Pro, etc.",
@@ -285,7 +285,7 @@ const CMS_DATA = {
       category: "software",
       categoryName: "Colaboração & Nuvem",
       badge: "Especialista Google",
-      image: "public/images/partner-google.jpg",
+      image: "assets/images/partner-google.jpg",
       shortDesc: "Email corporativo seguro com @suaempresa, Google Meet com gravação, Drive compartilhado e segurança avançada.",
       specs: [
         "Gmail Corporativo com proteção avançada antispam e antiphishing",
@@ -303,7 +303,7 @@ const CMS_DATA = {
       category: "software",
       categoryName: "Cibersegurança",
       badge: "Líder em Segurança",
-      image: "public/images/partner-kaspersky.jpg",
+      image: "assets/images/partner-kaspersky.jpg",
       shortDesc: "Proteção em nuvem de última geração para computadores, servidores de arquivos e dispositivos móveis.",
       specs: [
         "Antivírus de Próxima Geração com Inteligência Artificial baseada em comportamento",
@@ -503,7 +503,7 @@ const CMS_DATA = {
       category: "Segurança",
       date: "10 de Fevereiro de 2026",
       readTime: "5 min de leitura",
-      image: "public/images/partner-kaspersky.jpg"
+      image: "assets/images/partner-kaspersky.jpg"
     },
     {
       id: "post-4",
@@ -513,7 +513,7 @@ const CMS_DATA = {
       category: "Hardware",
       date: "02 de Fevereiro de 2026",
       readTime: "7 min de leitura",
-      image: "public/images/partner-benq.jpg"
+      image: "assets/images/partner-benq.jpg"
     }
   ],
 
